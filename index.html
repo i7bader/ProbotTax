@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ProBotTax | By Bader</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="boxtax">
+  <div class="inputtax">
+  <input type="number" placeholder="Enter Numper" id="input" oninput="autax()" onKeyPress="if(this.value.length==20) return false;">
+  </div>
+  <hr>
+  <br>
+  <p>The bot will take : <span id="bot"></span></p>
+  <p>The user will get : <span id="user"></span></p>
+  <p>The amount you need to transfer: <span id="taax"></span></p>
+  <button id="btn" onclick="copyText()">Copy text!</button>
+  <p id="CopyTheText"></p>
+</div>
+
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

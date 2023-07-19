@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  text-decoration: none !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #2c2c35;
+}
+
+.boxtax{
+    position: relative;
+    height: 380px;
+    width: 390px;
+    margin: 20px auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #25252c; 
+}
+.boxtax input{
+  padding: 7px;
+  width: 345px;
+  outline: 0;
+  border-bottom: 2px solid gray;
+  transition: 0.2s;
+  background-color: transparent;
+  border: 0;
+  color: #ced4da;
+  font-size: 17px;
+}
+.boxtax hr{
+  border: 0.5px solid #343a40;
+  border-radius: 5px;
+}
+.boxtax p {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.boxtax span{
+  color: #ced4da;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg,#6850ff,#a750ff);
+    border-radius: 8px;
+    border: 0;
+    font-weight: 500;
+    font-size: 17px!important;
+    line-height: 21px!important;
+    color: #fff;
+    padding:0 160px;
+    height: 45px;
+    outline: none;
+    unicode-bidi: plaintext;
+}
+#CopyTheText{
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
